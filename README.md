@@ -1,5 +1,7 @@
 # ecommerce-backend
 
+Fatih Ünal Kesik e2467520
+
 This is the backend server for the E-Commerce Web Application built for CENG495 Cloud Computing Assignment 1 at METU.
 
 ## Technologies Used
