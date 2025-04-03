@@ -17,9 +17,6 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use('/api', router);
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public', 'index.html'));
-});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
